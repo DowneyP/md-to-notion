@@ -1,0 +1,34 @@
+# Notion 个人笔记（不公开）
+*.md
+!README.md
+
+# Claude Code 配置（本地专用）
+.claude/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# 转换输出目录
+converted/
+
+# 环境变量文件（绝对不能上传！）
+.env
+.env.*
+
+# 本地运行脚本
+run.sh
+
+# macOS
+.DS_Store
